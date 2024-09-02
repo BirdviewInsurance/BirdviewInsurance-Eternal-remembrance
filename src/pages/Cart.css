@@ -1,0 +1,32 @@
+@media screen and (max-width: 1089px) {
+    .cart-brand-name{
+        padding-left: 50px;
+        background-color: rgb(40, 35, 85);
+        display:block;
+    }
+    .product-name{
+        white-space: nowrap;  
+        overflow: hidden;  
+        text-overflow: ellipsis;  
+        max-width:80px;  
+    }
+    .shopping-cart-name h2 {
+        padding-left: 10px;
+        color: rgb(222, 216, 208);
+        background-color: rgb(40, 35, 85);
+        padding-left: 50px;
+    }
+}
+.product-name{
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+    max-width:200px; 
+}
+@media screen and (min-width: 1089px) {
+.cart-brand-name{
+    display: none;
+}
+
+}
+

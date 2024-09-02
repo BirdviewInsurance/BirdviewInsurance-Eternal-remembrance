@@ -1,0 +1,82 @@
+.AppsIcon{
+    color: rgb(238, 234, 234);
+    margin: 6px;
+ }
+
+
+ @media screen and (min-width: 1090px) {
+
+    .AppsIcon{
+        color: rgb(245, 244, 244);
+        margin: 6px;
+     }
+    
+ }
+ @media screen and (max-width: 1050px) {
+      .Phone-Review-Model{
+            display: none;
+           }
+       .Phone-Review{
+        display: flex;
+        justify-content: space-between;
+       }  
+       .Phone-Review > div {
+        flex:1;
+        overflow: hidden;
+       }  
+ }
+
+
+ @media screen and (max-width: 850px) {
+    .Mobi-phone-Email{
+        display: none;
+    }
+    .Phone-Review-date{
+        display: none;
+       }
+
+    .mobi-phone-users{
+        display: flex;
+        justify-content: space-between; 
+
+    }
+    .mobi-phone-users > div {
+        flex: 1; 
+        overflow: hidden;
+      } 
+
+    .phone-orders{
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone-orders > div {
+        flex: 1; 
+        overflow: hidden;
+      } 
+      .phone-orders-quantity{
+        display: none;
+      }
+   .Transactions{
+    display: flex;
+    justify-content: space-between;
+   }  
+   .Transactions > div {
+    flex: 1; 
+    overflow: hidden;
+    } 
+     .Transactions-Quantity{
+        display: none;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    .Mobi-phone-Phone{
+        display: none;
+    }
+    .Transactions-Date{
+        display: none;
+    }
+    .Phone-Review-Rating{
+        display: none;
+    }
+ }
